@@ -1,0 +1,108 @@
+Bank Account has been created under Carl's name!
+Student Thread has been created!
+Grandmother Thread has been created!
+Student Loan Company has been created!
+University Thread has been created!
+
+Student - Carl depositing £200 into bank account
+[ Customer: Student - Carl, Amount: 200]
+Deposit complete
+Bank balance is now £200
+
+Wish you a Happy Birthday! - From Gran
+Grandmother - Gran depositing £300 into bank account
+[ Customer: Grandmother - Gran, Amount: 300]
+Deposit complete
+Bank balance is now £500
+
+Student Loan Company depositing £1000 into bank account
+[ Customer: Student Loan Company, Amount: 1000]
+Deposit complete
+Bank balance is now £1500
+
+Uni of Westminster withdrawing £1000 from bank account
+[ Customer: Uni of Westminster, Amount: 1000]
+Withdrawal complete
+Bank balance is now £500
+
+Student - Carl withdrawing £150 from bank account
+[ Customer: Student - Carl, Amount: 150]
+Withdrawal complete
+Bank balance is now £350
+
+Student - Carl depositing £200 into bank account
+[ Customer: Student - Carl, Amount: 200]
+Deposit complete
+Bank balance is now £550
+
+Student Loan Company depositing £1000 into bank account
+[ Customer: Student Loan Company, Amount: 1000]
+Deposit complete
+Bank balance is now £1550
+
+Wish you a Merry Christmas! - From Gran
+Grandmother - Gran depositing £300 into bank account
+[ Customer: Grandmother - Gran, Amount: 300]
+Deposit complete
+Bank balance is now £1850
+
+Uni of Westminster withdrawing £1000 from bank account
+[ Customer: Uni of Westminster, Amount: 1000]
+Withdrawal complete
+Bank balance is now £850
+
+Student - Carl withdrawing £150 from bank account
+[ Customer: Student - Carl, Amount: 150]
+Withdrawal complete
+Bank balance is now £700
+
+Student - Carl depositing £200 into bank account
+[ Customer: Student - Carl, Amount: 200]
+Deposit complete
+Bank balance is now £900
+
+Student - Carl withdrawing £150 from bank account
+[ Customer: Student - Carl, Amount: 150]
+Withdrawal complete
+Bank balance is now £750
+
+Grandmother Thread exiting!
+Student Loan Company depositing £1000 into bank account
+[ Customer: Student Loan Company, Amount: 1000]
+Deposit complete
+Bank balance is now £1750
+
+Uni of Westminster withdrawing £1000 from bank account
+[ Customer: Uni of Westminster, Amount: 1000]
+Withdrawal complete
+Bank balance is now £750
+
+Student Thread exiting!
+Student Loan Company Thread exiting!
+University thread exiting!
+
+All threads have finished execution. Now printing final bank statement
+
+Statement for Carl's Account: 8526
+============================================================
+Customer                 Amount       Balance
+============================================================
+Student - Carl              200        200
+Grandmother - Gran          300        500
+Student Loan Company       1000       1500
+Uni of Westminster        -1000        500
+Student - Carl             -150        350
+Student - Carl              200        550
+Student Loan Company       1000       1550
+Grandmother - Gran          300       1850
+Uni of Westminster        -1000        850
+Student - Carl             -150        700
+Student - Carl              200        900
+Student - Carl             -150        750
+Student Loan Company       1000       1750
+Uni of Westminster        -1000        750
+============================================================
+
+Your bank balance is currently £750
+
+Process finished with exit code 0

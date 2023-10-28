@@ -1,0 +1,17 @@
+STUDENT=(deposit->moneyInBank->withdraw->STUDENT
+	    |giftInBank->withdraw->STUDENT).
+
+GRANDMOTHER = (topUpGift->giftInBank->GRANDMOTHER).
+
+STUDENTLOANCOMPANY = (depositFees->feesDeposited->feesTaken->STUDENTLOANCOMPANY).
+
+UNIVERSITY = (feesDeposited->withdrawFees->feesTaken->UNIVERSITY).
+
+
+||BANKING_SYSTEM=
+(
+	STUDENT||
+	GRANDMOTHER||
+	STUDENTLOANCOMPANY||
+	UNIVERSITY
+).
